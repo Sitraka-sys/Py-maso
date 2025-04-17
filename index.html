@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#upload">Upload</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero fade-in">
+    <div class="hero-text">
+      <h2>Capturing Moments, Creating Memories</h2>
+      <a href="#portfolio" class="btn">View Portfolio</a>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section fade-in">
+    <h2>Portfolio Gallery</h2>
+    <div class="grid">
+      <a href="https://via.placeholder.com/800" target="_blank"><img src="https://via.placeholder.com/300" alt="Photo 1"></a>
+      <a href="https://via.placeholder.com/800" target="_blank"><img src="https://via.placeholder.com/300" alt="Photo 2"></a>
+      <a href="https://via.placeholder.com/800" target="_blank"><img src="https://via.placeholder.com/300" alt="Photo 3"></a>
+      <a href="https://via.placeholder.com/800" target="_blank"><img src="https://via.placeholder.com/300" alt="Photo 4"></a>
+    </div>
+  </section>
+
+  <section id="services" class="section slide-up">
+    <h2>Services</h2>
+    <ul>
+      <li>Wedding Photography & Videography</li>
+      <li>Event Coverage</li>
+      <li>Corporate Shoots</li>
+      <li>Portrait Sessions</li>
+    </ul>
+  </section>
+
+  <section id="about" class="section fade-in">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate photographer and videographer with a love for storytelling through visuals. With years of experience capturing weddings, events, and portraits, I bring creativity and heart to every shoot.</p>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Demo Video" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section slide-up">
+    <h2>Client Testimonials</h2>
+    <div class="testimonials">
+      <blockquote>
+        “Absolutely amazing work! The photos from our wedding were breathtaking.” <br><span>- Sarah & Mike</span>
+      </blockquote>
+      <blockquote>
+        “Professional, creative, and friendly. Highly recommend!” <br><span>- John D.</span>
+      </blockquote>
+      <blockquote>
+        “Captured our event perfectly. Will work with again!” <br><span>- Events Co.</span>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="upload" class="section fade-in">
+    <h2>Upload Your Photo</h2>
+    <form enctype="multipart/form-data">
+      <input type="file" accept="image/*" />
+      <button type="submit">Upload</button>
+    </form>
+    <p>(Note: Upload is simulated in this version.)</p>
+  </section>
+
+  <section id="contact" class="section slide-up">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
